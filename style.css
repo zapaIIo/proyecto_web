@@ -22,3 +22,9 @@ a{
     font-family: Impact;    
     border-radius: 50px;
 }
+.imagen {
+        width: 30%;
+        height: 450px;
+        border: 2px solid powderblue;
+        background-color: black;
+}
