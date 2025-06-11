@@ -41,3 +41,29 @@ div{
     display:inline-block;
     height: 425px;
 }
+
+#search-form {
+    display: flex; /* Para organizar los elementos horizontalmente */
+    align-items: center; /* Para alinear los elementos verticalmente */
+  }
+  
+  #search-input {
+    padding: 10px;
+    border: 1px solid #ccc; /* Borde suave */
+    border-radius: 5px; /* Esquinas redondeadas */
+    margin-right: 10px; /* Espacio entre el input y el botón */
+    width: 300px; /* Ancho fijo */
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Azul */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Cambia el cursor a una mano cuando se acerca */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Azul más oscuro al pasar el mouse */
+  }
