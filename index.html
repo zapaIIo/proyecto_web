@@ -6,59 +6,18 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body> <h1>El abandono en los adultos mayores</h1>
-        
-         <header>
-            <h1> buscador</h1>
-            <input type="text" id="buscador" placeholder="Buscar...">
+<body>
 
-            <div id="contenido">
-                <div class="item">Introduccion</div>
+    </p>
+    <a href="introduccion" > Introduccion</a>
+    <section id="introduccion">
 
+         <h1>Introduccion</h1>
 
-
-            </div>
-
-            <script>
-                // Función para filtrar los elementos
-                document.getElementById('buscador').addEventListener('input', function () {
-                  const filtro = this.value.toLowerCase();
-                  const items = document.querySelectorAll('#contenido .item');
-            
-                  items.forEach(item => {
-                    const texto = item.textContent.toLowerCase();
-                    item.classList.toggle('oculto', !texto.includes(filtro));
-                  });
-                });
-              </script>
-            
-            <a href="#stand by" > Opcion 1</a>
-            <a href="#bienvenida"> Opcion 2</a>
-            <a href="#detalle"> Opcion 3</a>
-            <a href="#contacto"> Opcion 4</a>
-           
-                             
-            <section id="bienvenida">
-                Bienvenida
-                <div class="imagen" style="border: 5px;">
-                    <img src="" alt="">
-                </div>
-            </section>
-            <section id="detalle">
-                Detalles
-                
-            </section>
-            <section id="contacto">
-                contacto
-                <p> ola</p>
-                <img src="https://media.istockphoto.com/id/485879360/photo/despairing-senior-man.jpg?s=2048x2048&w=is&k=20&c=XX-zNwMl_XOvrmlB5QkndMZVp342_qQ4XngLp-JLbpo=" alt=""
-                style="width:350px;height:350px;">
-            </section>
-            <section id="stand by">
-                nose
-
-            </section>
-            
-        </header>
+    <p> En este PPT abordaremos una problemática relacionada al bienestar y salud de los adultos mayores,<br>
+         presentaremos algunos porcentajes de información relevante sobre los adultos mayores en chile como: cuantos tienen discapacidades,<br>
+         cuantos adultos mayores cuentan con amigos, el porcentaje de abandono en el adulto mayor, porcentaje de accidentes y<br>
+         como estos se deben a enfermedades propias de la edad.   
+    </section>
 </body>
 </html>
