@@ -49,3 +49,6 @@ button{
 #menu{
     display: inline-flex;
 }
+img {
+    width: 450px;
+}
