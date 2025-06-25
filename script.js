@@ -14,7 +14,8 @@ function verCaso2(){
 }
 
 function verCaso3(){
-    document.getElementById("imagen").innerHTML = "img src='https://pixabay.com/es/photos/familia-sol-amor-abuelos-gente-7392843/' "
+    let texto  = "<img src='https://media.istockphoto.com/id/1473162531/photo/help-support-and-wheelchair-with-nurse-and-old-man-for-disability-rehabilitation-or-healing.jpg?s=2048x2048&w=is&k=20&c=9b9S2YAfsPsw1LZeHUhd4zulIeWgviWh04Vai7U24lY='> "
+    document.getElementById("imagen").innerHTML = texto
 }
 
 function sumar() {
