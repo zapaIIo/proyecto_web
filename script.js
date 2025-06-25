@@ -1,13 +1,16 @@
-// img_caso1 img src="https://pixabay.com/es/photos/familia-sol-amor-abuelos-gente-7392843/"
-// img_caso2
-// img_caso3
-function verCaso1(){
-    texto = '<img src="https://pixabay.com/es/photos/familia-sol-amor-abuelos-gente-7392843/"'
-    document.getElementById("imagen").innerHTML = "img src='https://pixabay.com/es/photos/familia-sol-amor-abuelos-gente-7392843/' "
+
+
+
+function verCaso1() {
+    // Esto crea el string HTML correcto para la imagen
+    let texto = '<img src="/imagenes/familia.jpg" alt="Familia">';
+    // Inserta la imagen dentro del elemento con id "imagen"
+    document.getElementById("imagen").innerHTML = texto;
 }
 
 function verCaso2(){
-    document.getElementById("imagen").innerHTML = "img src='https://cdn.pixabay.com/photo/2022/08/17/15/46/family-7392843_1280.jpg' "
+    let texto = "<img src='https://cdn.pixabay.com/photo/2015/07/15/19/59/health-846863_1280.jpg'> ";
+    document.getElementById("imagen").innerHTML = texto;
 }
 
 function verCaso3(){
