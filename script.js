@@ -18,7 +18,3 @@ function verCaso3(){
     document.getElementById("imagen").innerHTML = texto
 }
 
-function sumar() {
-    var suma = 8 + 8;
-    document.getElementById('imagen').innerHTML = '<h1>' +suma+ '</h1>'
-}
